@@ -34,7 +34,6 @@ body {
 }
 
 .paragraph-container {
-    display: flex;
     background-color: #E5E7EB;
     width: fit-content;
     height: fit-content;
@@ -47,5 +46,21 @@ body {
     padding: 2em 1em 0 1em;
 }
 
-/* form {
-} */
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 2.5% 0 5% 5%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+input {
+    font-size: 1.5em;
+}
