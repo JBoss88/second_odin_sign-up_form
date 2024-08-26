@@ -28,12 +28,16 @@ a, .img-links {
 
 body {
     display: flex;
+    justify-content: center;
     width: 100vw;
     height: 100vh;
 }
 
 .paragraph-container {
+    display: flex;
     background-color: #E5E7EB;
+    width: fit-content;
+    height: fit-content;
 }
 
 .paragraph {
@@ -42,3 +46,6 @@ body {
     font-weight: 700;
     padding: 2em 1em 0 1em;
 }
+
+/* form {
+} */
