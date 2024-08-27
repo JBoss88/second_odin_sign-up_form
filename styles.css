@@ -98,11 +98,11 @@ input[type="text"]:valid,
 input[type="tel"]:valid,
 input[type="email"]:valid,
 input[type="password"]:valid {
-    border: 1px solid green;
+    border: 2px solid green;
 }
 
 input[type="password"]:invalid {
-    border: 1px solid red;
+    border: 2px solid red;
 }
 
 
