@@ -48,7 +48,7 @@ body {
 
 h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 20px 0 30px 40px;
+    padding: 25px 0 30px 40px;
 }
 
 .input-form-container {
@@ -67,13 +67,30 @@ h1 {
 label {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
+    color: gray;
 }
 
 input {
     font-size: 1.5em;
+    background-color: white;
+    border: 2px solid #E5E7EB;
     border-radius: 5px;
     margin-top: 8px;
     margin-bottom: 12px;
+}
+
+input[type="text"]:valid,
+input[type="tel"]:valid,
+input[type="email"]:valid,
+input[type="password"]:valid {
+    border: 2px solid green;
+}
+
+input[type="text"]:invalid,
+input[type="tel"]:invalid,
+input[type="email"]:invalid,
+input[type="password"]:invalid {
+    border: 2px solid red;
 }
 
 .button-link-container {
