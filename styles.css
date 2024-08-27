@@ -40,7 +40,7 @@ body {
 }
 
 .paragraph {
-    font-size: 35px;
+    font-size: 25px;
     line-height: 1.5em;
     font-weight: 700;
     padding: 2em 1em 0 1em;
@@ -53,7 +53,11 @@ h1 {
 
 .container {
     display: flex;
-    flex-direction: column;
+    width: 70%;
+}
+
+.right-col {
+    width: 60%;
 }
 
 label {
@@ -63,4 +67,14 @@ label {
 
 input {
     font-size: 1.5em;
+    border-radius: 5px;
+}
+
+button {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    padding: 5px 10px;
+    background-color: #596D48;
+    color: white;
+    border-radius: 5px;
 }
